@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+}
+
+#main {
+  display: flex;
+}
+
+#gameFrame {
+  margin: 0 auto;
+  background: black;
+  width: 400px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+}
